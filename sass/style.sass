@@ -1,6 +1,20 @@
+html
+    scroll-behavior: smooth
+    
+body
+    min-height: 100vh
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    font-family: 'Roboto', sans-serif
+    font-size: 18px
+    font-weight: 400
+    line-height: 1.5
+    color: #4d2323
+    /* border: 1px solid red */
 
-header
-    background-color:	#1E90FF
 
 footer
     background-color:	#1E90FF
@@ -8,17 +22,41 @@ footer
 .container 
     max-width: 1440px
     margin: 0 auto
-    height: 55px
+    padding: 0 20px
     &_main
         display: flex
         flex-wrap: wrap
         justify-content: space-between
+    &_nav
+        min-height: 50px
+        background-color:	#1E90FF
+
+.section
+    width: 50%
+    &_profile
+        display: flex
+        justify-content: space-around
+        text-align: center
+        padding: 35px 30px
+        border-bottom: 15px solid #1E90FF
+        width: 100%
+        &_title
+            display: flex
+            flex-direction: column
+            justify-content: center
+            text-align: center
+            text-transform: uppercase
+        &_avatar
+            width: 300px
+            height: 200px
+            box-shadow: 0 1px 4px rgb(0 0 0 / 50%)
 
 .nav-list 
     display: flex
     justify-content: flex-end
     align-items: center
     list-style: none
+    margin: 0
 
 a.nav-link
     position: relative
@@ -26,15 +64,21 @@ a.nav-link
     font-size: 22px
     font-weight: 300
     text-decoration: none
-    line-height: 55px
+    line-height: 50px
     color:#FFD700
-
-.section_profile_avatar
-    width: 30%
-    height: 40%
-    box-shadow: 0 1px 4px rgb(0 0 0 / 50%)
-
-
+    &:after
+        content: ""
+        position: absolute
+        display: block
+        left: 0
+        bottom: -5px
+        width: 0
+        height: 2px
+        background-color: #FFD700
+        transition: 0.5s ease-out
+    &:hover::after
+        width: 100%
+        left: 0
 
 .rsschool
     width: 121px
