@@ -1,0 +1,340 @@
+html
+    scroll-behavior: smooth
+
+body
+    font-family: "Inter", sans-serif
+    font-style: normal
+    font-weight: 400
+    margin: 0
+    padding: 0
+
+*
+    box-sizing: border-box
+
+.container 
+    max-width: 1440px
+    margin: 0 auto
+
+.header
+    min-height: 134px
+    background: #EDF2EC
+    // width: 100%
+    &__wrapper
+        height: 134px
+        display: flex
+        justify-content: space-around
+        align-items: center
+        margin: 0 110px
+    &__logo
+        position: relative
+        display: flex
+        justify-content: flex-start
+        flex: 1
+        font-family: 'Inika'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 21px
+        &:before
+            content: ""
+            position: absolute
+            top: -3px
+            left: -20px
+            width: 20px
+            height: 20px
+            background-size: 20px 20px
+            background-image: url(../icons/logo_vector.svg)
+    &__nav
+        display: flex
+        justify-content: space-between
+
+
+.navigation 
+    display: flex
+    &__link 
+        align-items: center
+        list-style: none
+        margin-left: 46px
+        cursor: pointer
+        font-family: 'Inika'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 50px
+        a
+            text-decoration: none
+            color: #010201
+            &:hover
+                color: #E06733
+                font-weight: 700
+
+.welcome
+    padding: 62px 109px
+    background: #EDF2EC
+    min-height: 532px
+    &__wrapper
+        display: flex
+        flex-wrap: nowrap
+        justify-content: space-between
+        align-items: center
+    &__image
+        max-width: 100%
+    &__leaf
+        display: block
+        width: 50%
+    &__content
+        display: block
+        width: 50%
+    &__title
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 700
+        font-size: 45px
+        line-height: 50px
+        color: #717171
+        margin-top: 32px
+        // width: 550px
+        span
+            color: #499A18
+    &__text
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 20px
+        line-height: 35px
+        color: #636060
+        margin-top: 42px
+        // width: 550px
+    &__button
+        width: 158px
+        height: 44px
+        border: 2px solid #E06733
+        border-radius: 10px
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 20px
+        background: #EDF2EC
+        margin-top: 42px
+        &:hover
+            background-color:#E06733
+            cursor: pointer
+        a
+            width: 158px
+            height: 44px
+            text-decoration: none
+
+.about
+    padding: 93px 109px
+    background: #FFFFFF
+    min-height: 666px
+    &__wrapper
+        display: flex
+        flex-wrap: nowrap
+        justify-content: space-between normal
+        align-items: center
+    &__plant
+        display: block
+        width: 50%
+    &__content
+        display: block
+        width: 50%
+    &__image
+        max-width: 100%
+        margin-left: 153px
+    &__title
+        font-family: 'Inika'
+        font-style: normal
+        font-weight: 400
+        font-size: 40px
+        line-height: 52px
+        color: #499A18
+        width: 463px
+        height: 102px
+        span
+            color: #E06733
+    &__text
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 20px
+        line-height: 30px
+        color: #636060
+        width: 605px
+        height: 208px
+
+.service
+    padding: 40px 109px 119px
+    background: #EDF2EC
+    min-height: 1300px
+    &__wrap1
+        min-height: 94px
+        display: flex
+        flex-wrap: nowrap
+        justify-content: space-between
+        align-items: center
+        &__title
+            width: 33%
+            height: 94px
+            margin-left: 33px
+            // left: 109px
+            // top: 40px
+            font-family: 'Inika'
+            font-style: normal
+            font-weight: 400
+            font-size: 40px
+            line-height: 52px
+            color: #499A18
+        &__buttons
+            margin-left: 30px
+            width: 66%
+            display: flex
+            flex: flex-start
+            button
+                width: 161px
+                height: 50px
+                left: 557px
+                top: 69px
+                border: 1px solid #E06733
+                border-radius: 5px
+                font-family: 'Inika'
+                font-style: normal
+                font-weight: 400
+                font-size: 20px
+                line-height: 26px
+                color: #E06733
+                background: none
+                margin-right: 38px
+                a
+                    text-decoration: none
+                    width: 161px
+                    height: 50px
+                &:hover
+                    color: #E06733
+                    font-weight: 700
+    &__wrap2
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        &__item
+            width: 33.33%
+            margin-top: 55px
+            // margin: 0 auto
+            img
+                width: 330px
+                min-height: 500px
+                border-radius: 20px
+                margin: 0
+            figure
+                height: 500px
+            figcaption
+                position: relative
+                top: -100px
+                width: 330px
+                height: 100px
+                border: 1px solid #E3E1D5
+                border-radius: 0px 0px 20px 20px
+                background: #EDF2EC
+            &__header
+                text-align: center
+                font-family: 'Inter'
+                font-style: normal
+                font-weight: 700
+                font-size: 20px
+                line-height: 20px
+                color: #E06733
+            &__subheader
+                text-align: center
+                font-family: 'Inter'
+                font-style: normal
+                font-weight: 400
+                font-size: 16px
+                line-height: 20px
+                color: #717171
+
+.prices
+    padding: 38px 109px 115px
+    background: #FFFFFF
+    min-height: 560px
+    display: flex
+    &__title
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 700
+        font-size: 40px
+        line-height: 48px
+        color: #000000
+        span
+            color: #499A18
+    &__wrap1
+        width: 50%
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        &__item
+            margin-top: 12px
+            width: 332px
+            height: 282px
+            border: 1px solid #E3E1D5
+            border-radius: 20px
+            padding: 32px 41px 0px 41px
+            img
+                margin-bottom: 30px
+    &__wrap2
+        width: 50%
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        button
+            width: 161px
+            height: 50px
+            border: 1px solid #E06733
+            border-radius: 5px
+            font-family: 'Inika'
+            font-style: normal
+            font-weight: 400
+            font-size: 20px
+            line-height: 26px
+            color: #E06733
+            background: none
+            a
+                text-decoration: none
+                width: 161px
+                height: 50px
+            &:hover
+                background-color: #E06733
+                color: #FFFFFF
+                font-weight: 700
+        img
+            margin-top: 39px
+
+.contacts
+    padding: 53px 109px 0px
+    background: #FFFFFF
+    min-height: 550px
+    background: #EDF2EC
+    &__wrap1
+        display: flex
+        justify-content: space-between
+        &__title
+            font-family: 'Inika'
+            font-style: normal
+            font-weight: 700
+            font-size: 40px
+            line-height: 52px
+            color: #499A18
+            margin: 0
+        &__item-3
+            margin-top: 95px
+
+.footer
+    min-height: 130px
+
+
+
+
+ 
+
+
