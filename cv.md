@@ -1,17 +1,35 @@
-##Nikolay Stakovichenko
-
-#Contact information:
-Email: n.g.stakovichenko@gmail.com
-Github: ZeitNeit
-Discord: ZeitNeit#7330
-
-#Briefly About Myself:
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
-#Skills
-Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-#Code example:
-Примеры кода
-#Experience and courses:
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-Образование (включая пройденные курсы и тренинги)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+## Nikolay Stakovichenko
+===
+# Contact information:
+* __Email:__ n.g.stakovichenko@gmail.com
+* __Github:__ ZeitNeit
+* __Discord:__ ZeitNeit#7330
+===
+# Briefly About Myself:
+I have a main job and programming is a hobby for me. I am in parallel working under several training projects in order to develop into the independent full-stack developer. My goal is to master JavaScript, React and Node.js. I will be glad to join the creation of open source projects.
+===
+# Skills
+* HTML5, CSS3, SASS, Bootstrap, Grid;
+* JavaScript Advanced;
+* GIT, Figma, GULP.
+===
+# Code example:
+```
+const dataReverse = function(data){
+  if (data.length===0) return []
+  const arrayBytes = [];
+  const tam = data.length / 8;
+  for (var i = 0; i < tam; i++){
+    arrayBytes.push(data.splice(0,8));
+  }
+  return arrayBytes.reverse().join().split(',').map(v=>v*1);
+}
+```
+===
+# Education and language:
+* Economic master degree of Kyiv National Economy University
+* English - B2 (Upper-Intermediate) and Ukranian - Native
+===
+# Projects
+* [UBER](адрес "https://zeitneit.github.io/UBER/")
+* [PLANTS](адрес "https://zeitneit.github.io/plants/") 
