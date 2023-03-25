@@ -1,15 +1,12 @@
 ## Nikolay Stakovichenko
-
 ===
 # Contact information:
 * __Email:__ n.g.stakovichenko@gmail.com
 * __Github:__ ZeitNeit
 * __Discord:__ ZeitNeit#7330
-
 ===
 # Briefly About Myself:
 I have a main job and programming is a hobby for me. I am in parallel working under several training projects in order to develop into the independent full-stack developer. My goal is to master JavaScript, React and Node.js. I will be glad to join the creation of open source projects.
-
 ===
 # Skills
 * HTML5, CSS3, SASS, Bootstrap, Grid;
